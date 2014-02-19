@@ -44,8 +44,6 @@ public class ExplicitlyLoadedActivity extends Activity {
 	
 	private void enterClicked() {
 
-		Log.i(TAG,"Entered enterClicked()");
-		
 		// TODO - Save user provided input from the EditText field
 			String s = mEditText.getText().toString();
 			Log.i(TAG,"Entered enterClicked()");
