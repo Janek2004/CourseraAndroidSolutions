@@ -35,7 +35,7 @@ public class GoToDangerousActivity extends Activity {
 	private void startDangerousActivity() {
 
 		Log.i(TAG, "Entered startDangerousActivity()");
-
+		//startActivity(new Intent(BookmarksActivity.this,GoToDangerousActivity.class));
 		startActivity(new Intent(DANGEROUS_ACTIVITY_ACTION));
 		
 
