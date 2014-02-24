@@ -24,8 +24,6 @@ public class MainActivity extends Activity implements
 		// If the layout is single-pane, create the FriendsFragment 
 		// and add it to the Activity
 
-//		mFriendsFragment = (FriendsFragment)  getFragmentManager()
-	//			.findFragmentById(R.id.friends_frag);
 		FragmentManager fragmentManager = getFragmentManager(); 
 		FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 		
@@ -76,6 +74,8 @@ public class MainActivity extends Activity implements
 			FragmentManager fragmentManager = getFragmentManager(); 
 			FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 			fragmentTransaction.replace(R.id.fragment_container, mFeedFragment);
+///			fragmentTransaction.addTo
+			fragmentTransaction.addToBackStack(null);
 			fragmentTransaction.commit();
 			
 			// execute transaction now
