@@ -1,0 +1,9 @@
+02-22 22:04:51.707: I/Lab-Permissions(873): Entered startBookMarksActivity()
+02-22 22:04:56.047: I/Lab-Permissions(873): Entered startGoToDangerousActivity()
+02-22 22:05:08.107: I/Lab-Permissions(873): Entered startDangerousActivity()
+02-22 22:17:05.387: I/Lab-Permissions(982): Entered startBookMarksActivity()
+02-22 22:17:07.847: I/Lab-Permissions(982): Entered loadBookmarks()
+02-22 22:17:10.997: I/Lab-Permissions(982): Bookmarks loaded
+02-22 22:17:16.407: I/Lab-Permissions(982): Entered startBookMarksActivity()
+02-22 22:17:19.899: I/Lab-Permissions(982): Entered startGoToDangerousActivity()
+02-22 22:17:22.617: I/Lab-Permissions(982): Entered startDangerousActivity()
